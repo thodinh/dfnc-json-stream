@@ -1,3 +1,9 @@
+:::
+
+	Fork: https://github.com/jhuckaby/pixl-perf.git
+
+	Support typescript
+:::
 # Overview
 
 This module provides a convenient way to send/receive complex data objects over streams (pipes and sockets).  It does this by transparently serializing the data to JSON, and parsing it on the other side, emitting a `json` event to your code whenever it has a complete JSON message.
